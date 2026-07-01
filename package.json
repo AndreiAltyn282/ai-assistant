@@ -1,0 +1,39 @@
+{
+  "name": "ai-assistant-vscode",
+  "displayName": "AI Assistant",
+  "description": "AI-помощник для программистов прямо в VS Code",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "ai-assistant.ask",
+        "title": "AI Assistant: Спросить"
+      },
+      {
+        "command": "ai-assistant.explain",
+        "title": "AI Assistant: Объяснить код"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "ai-assistant.ask",
+        "key": "ctrl+shift+a",
+        "mac": "cmd+shift+a"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0"
+  }
+}

@@ -1,0 +1,73 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+ENV/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Базы данных
+chroma_db/
+*.sqlite3
+*.db
+
+# Большие текстовые файлы (опционально)
+rag_texts/
+rag_html_all/
+python_html_docs/
+django_docs/
+fastapi_docs/
+postgresql_docs/
+docker_docs/
+kubernetes_docs/
+github_repos/
+
+# Логи
+*.log
+logs/
+
+# Файлы окружения
+.env
+.env.local
+.env.*.local
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Сборка и временные файлы
+*.tar.gz
+*.zip
+*.bz2
+*.7z
+
+# Документация (можно исключить, если не нужна в Git)
+*.html
+*.txt
+books/
+my_scripts/
+
+# Прочее
+*.vsix
+*.pyc
+*.pid
+*.lock

@@ -1,0 +1,26 @@
+{
+  "name": "ai-assistant-vscode",
+  "displayName": "AI Assistant",
+  "description": "AI-помощник для программистов",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other"],
+  "main": "./extension/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "ai-assistant.ask",
+        "title": "AI Assistant: Спросить"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "ai-assistant.ask",
+        "key": "ctrl+shift+a",
+        "mac": "cmd+shift+a"
+      }
+    ]
+  }
+}
