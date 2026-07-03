@@ -1,8 +1,9 @@
 {
-  "name": "ai-assistant-vscode",
+  "name": "ai-assistant",
   "displayName": "AI Assistant",
   "description": "AI-помощник для программистов",
   "version": "1.0.0",
+  "publisher": "ai-assistant",
   "engines": {
     "vscode": "^1.85.0"
   },
